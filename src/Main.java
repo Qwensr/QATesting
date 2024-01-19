@@ -5,9 +5,11 @@ public class Main {
             ContactManager contactManager = new ContactManager();
             Scanner sc = new Scanner(System.in);
 
-        {
+
             while (true) {
-                System.out.println("\n=========== Phone Book ============");
+                System.out.println("\n===========  ============");
+                System.out.println("        PHONE BOOK          ");
+                System.out.println("===========  ============");
                 System.out.println("1. Create a contact");
                 System.out.println("2. View contacts");
                 System.out.println("3. Delete a contact");
@@ -16,7 +18,7 @@ public class Main {
                 System.out.println("6. Save contacts to file");
                 System.out.println("7. Load contacts from file");
                 System.out.println("8. Exit");
-                System.out.println("9. SearchByPhoneNumber");
+                System.out.println("9. SearchByPhoneNumber7");
                 System.out.print("Choose an action: ");
 
                 int choice = sc.nextInt();
@@ -56,4 +58,3 @@ public class Main {
             }
         }
     }
-}
